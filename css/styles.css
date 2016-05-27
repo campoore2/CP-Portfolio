@@ -28,10 +28,9 @@ a:visited {
   color: #FFC4C4;
 }
 
-href:active {
+.navbar  {
   background-color: black;
 }
-
 
 /*Home Page*/
 
