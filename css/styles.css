@@ -4,6 +4,14 @@ header h1, h2 {
   font-variant: small-caps;
 }
 
+.thumbnail {
+  background-color: #EDCECE;
+}
+
+.jumbotron {
+  background-color: #EDCECE;
+}
+
 
 /*Navigation Tabs*/
 
@@ -15,13 +23,17 @@ header h1, h2 {
 /*Home Page*/
 
 #home {
-  background-color: #BFB9B8;
+  background-color: #C24641;
+}
+
+div img{
+  height: 350px;
 }
 
 /*About Page*/
 
 #about {
-  background-color: #BFB9B8;
+  background-color: #C24641;
 }
 
 #intlist {
@@ -29,10 +41,14 @@ header h1, h2 {
 
 }
 
+.panel-default > .panel-heading {
+  background-color: red
+}
+
 /*Works Page*/
 
 #works {
-  background-color: #BFB9B8;
+  background-color: #C24641;
 }
 
 #wh1 {
@@ -41,15 +57,24 @@ header h1, h2 {
 
 #jumbop1 {
   margin-left: 45px;
+  color: grey;
 }
 
 #twh1 {
   margin-left: 45px;
 }
 
+
 /*Carousel in Works Page*/
 
 .carousel {
     height: 300px;
     margin-bottom: 60px;
+    background-color: #EDCECE;
+
 }
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    background-color: #EDCECE;
+  }
