@@ -6,6 +6,7 @@ header h1, h2 {
 
 .thumbnail {
   background-color: #EDCECE;
+  float: none
 }
 
 .jumbotron {
@@ -25,15 +26,12 @@ a:hover {
 }
 
 a:visited {
-  color: #FFC4C4;
+  color: cyan;
+
 }
 
 .navbar  {
   background-color: black;
-}
-
-#button {
-  background-color: green;
 }
 
 /*Home Page*/
