@@ -20,6 +20,10 @@ header h1, h2 {
 
 }
 
+#presentation {
+  color: green;
+}
+
 /*Home Page*/
 
 #home {
@@ -42,7 +46,16 @@ div img{
 }
 
 .panel-default > .panel-heading {
-  background-color: red
+  background-color: #EDCECE;
+  border-color: #992323;
+  color: black;
+  font-weight: bold;
+}
+
+.panel-default > .panel-body {
+  background-color: #EDCECE;
+  color: black;
+
 }
 
 /*Works Page*/
