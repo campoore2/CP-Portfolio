@@ -11,7 +11,7 @@ Used to view the works and experience of Cameron Poore.
 ## Setup/Installation Requirements
 
 * Open index.html in any browser
-* View in gh-pages at campoore2.github.com/CP-Portfolio
+* View in gh-pages at campoore2.github.io/CP-Portfolio
 
 
 ## Known Bugs
