@@ -4,6 +4,7 @@ header h1, h2 {
   font-variant: small-caps;
 }
 
+
 /*Navigation Tabs*/
 
 #icon {
@@ -32,4 +33,16 @@ header h1, h2 {
 
 #works {
   background-color: #BFB9B8;
+}
+
+#wh1 {
+  margin-left: 45px;
+}
+
+#jumbop1 {
+  margin-left: 45px;
+}
+
+#twh1 {
+  margin-left: 45px;
 }

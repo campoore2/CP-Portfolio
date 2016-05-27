@@ -6,6 +6,7 @@
   crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/journal/bootstrap.min.css" rel="stylesheet" integrity="sha384-r/qnS4YZBLuBSKeVc+sM4eUYUiJMFhkHfx1nwlErHhTd+NgeJlN/NiiTd6jbKJzm" crossorigin="anonymous">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <title>Cameron Poore Portfolio</title>
 </head>
 
@@ -31,13 +32,15 @@
 
 
     <div class="jumbotron">
-      <h2>Works</h2>
-      <p>My projects were created with Atom text editor, HTML, CSS, and Bootstrap.
-      Some contributions were made with help from <span id="">
+      <h2 id="wh1">Works</h2>
+      <p id="jumbop1">My projects were created with Atom text editor, HTML, CSS, and Bootstrap.
+      Some contributions were made with help from:
+        <!-- <ol>
+          <li>Add later</li> -->
     </div>
 
 
-    <h2>My Top Works</h2>
+    <h2 id="twh1">My Top Works</h2>
 
     <ol>
       <li>
@@ -102,7 +105,41 @@
       </li>
 
 
-    <h2>Other Works</h2>
+    <h2>My Other Projects</h2>
+    <!-- Carousel for Other Projects -->
+    <!-- Test to See if Carousel Works -->
+      <div id="myCarousel" class="carousel slide jumbotron">
+        <div class="container">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="container shelter item active">
+              <h1><a href="https://github.com/campoore2/shelter">Animal Shelter</a></h1>
+              <h2>A animal shelter testing the basics of CSS</h2>
+            </div>
+            <div class="container band item">
+              <h1><a href="https://github.com/campoore2/band">Favourite Band</a></h1>
+              <h2>In this project we created a simplistic band page for
+              Tommy Tutone including his tour dates</h2>
+            </div>
+            <div class="container puffins item">
+              <h1><a href="https://github.com/campoore2/resume">Tommy Tutone Resume</a></h1>
+              <h2>A resume created to highlight the experience and education for
+              Tommy Tutone</h2>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="icon-next"></span>
+        </a>
+      </div>
+
 
 
 
