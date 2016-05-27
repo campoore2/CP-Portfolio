@@ -16,7 +16,7 @@ Used to view the works and experience of Cameron Poore.
 
 ## Known Bugs
 
-No currently known bugs.
+* Bug with GH-Pages not allowing carousel to scroll. WILL FIX
 
 ## Support and contact details
 
