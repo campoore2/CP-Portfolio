@@ -46,3 +46,10 @@ header h1, h2 {
 #twh1 {
   margin-left: 45px;
 }
+
+/*Carousel in Works Page*/
+
+.carousel {
+    height: 300px;
+    margin-bottom: 60px;
+}
