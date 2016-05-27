@@ -4,6 +4,15 @@ header h1, h2 {
   font-variant: small-caps;
 }
 
+.thumbnail {
+  background-color: #EDCECE;
+  float: none
+}
+
+.jumbotron {
+  background-color: #EDCECE;
+}
+
 
 /*Navigation Tabs*/
 
@@ -12,16 +21,34 @@ header h1, h2 {
 
 }
 
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: cyan;
+
+}
+
+.navbar  {
+  background-color: black;
+}
+
 /*Home Page*/
 
 #home {
-  background-color: #BFB9B8;
+  background-color: #C24641;
+}
+
+div img{
+  height: 350px;
+
 }
 
 /*About Page*/
 
 #about {
-  background-color: #BFB9B8;
+  background-color: #C24641;
 }
 
 #intlist {
@@ -29,10 +56,23 @@ header h1, h2 {
 
 }
 
+.panel-default > .panel-heading {
+  background-color: #EDCECE;
+  border-color: #992323;
+  color: black;
+  font-weight: bold;
+}
+
+.panel-default > .panel-body {
+  background-color: #EDCECE;
+  color: black;
+
+}
+
 /*Works Page*/
 
 #works {
-  background-color: #BFB9B8;
+  background-color: #C24641;
 }
 
 #wh1 {
@@ -41,15 +81,32 @@ header h1, h2 {
 
 #jumbop1 {
   margin-left: 45px;
+  color: black;
 }
 
 #twh1 {
   margin-left: 45px;
 }
 
+li {
+  color: black;
+}
+
+#jumli ul {
+  margin-left: 45px;
+}
+
+
 /*Carousel in Works Page*/
 
 .carousel {
     height: 300px;
     margin-bottom: 60px;
+    background-color: #EDCECE;
+
 }
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    background-color: #EDCECE;
+  }
