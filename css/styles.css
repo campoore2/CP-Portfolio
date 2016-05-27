@@ -1,0 +1,26 @@
+header h1, h2 {
+  font-variant: small-caps;
+}
+
+/*Home Page*/
+
+#home {
+  background-color: #BFB9B8;
+}
+
+/*About Page*/
+
+#about {
+  background-color: #BFB9B8;
+}
+
+#intlist {
+  list-style: none;
+  
+}
+
+/*Works Page*/
+
+#works {
+  background-color: #BFB9B8;
+}
