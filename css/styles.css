@@ -20,9 +20,18 @@ header h1, h2 {
 
 }
 
-#presentation {
-  color: green;
+a:hover {
+  color: black;
 }
+
+a:visited {
+  color: #FFC4C4;
+}
+
+href:active {
+  background-color: black;
+}
+
 
 /*Home Page*/
 
@@ -70,11 +79,15 @@ div img{
 
 #jumbop1 {
   margin-left: 45px;
-  color: grey;
+  color: black;
 }
 
 #twh1 {
   margin-left: 45px;
+}
+
+li {
+  color: black;
 }
 
 
